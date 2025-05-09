@@ -89,7 +89,6 @@ section {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Header */
 header {
     position: fixed;
     top: 0;
@@ -158,7 +157,6 @@ header.scrolled {
     cursor: pointer;
 }
 
-/* Hero Section */
 #hero {
     height: 100vh;
     display: flex;
@@ -199,7 +197,6 @@ header.scrolled {
     color: var(--primary-color);
 }
 
-/* About Section */
 #about {
     background-color: white;
 }
@@ -272,7 +269,6 @@ header.scrolled {
     transition: width 1s ease;
 }
 
-/* Services Section */
 #services {
     background-color: #f5f7fa;
 }
@@ -309,7 +305,6 @@ header.scrolled {
     color: var(--dark-color);
 }
 
-/* Portfolio Section */
 .portfolio-filter {
     display: flex;
     justify-content: center;
@@ -384,7 +379,6 @@ header.scrolled {
     margin-bottom: 10px;
 }
 
-/* Contact Section */
 #contact {
     background-color: white;
 }
@@ -445,7 +439,6 @@ header.scrolled {
     resize: vertical;
 }
 
-/* Footer */
 footer {
     background-color: var(--dark-color);
     color: white;
@@ -489,7 +482,6 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Responsividade */
 @media (max-width: 992px) {
     .about-content {
         flex-direction: column;
